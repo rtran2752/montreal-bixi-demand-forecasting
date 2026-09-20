@@ -1,0 +1,23 @@
+{
+  "winner": "hist_gradient_boosting",
+  "split_datetime": "2025-10-21 09:00:00",
+  "train_rows": 6873,
+  "test_rows": 1719,
+  "models": {
+    "seasonal_naive": {
+      "MAE": 369.1169284467714,
+      "RMSE": 714.8203287435995,
+      "WAPE": 0.47445647906860233
+    },
+    "hist_gradient_boosting": {
+      "MAE": 114.25336546616002,
+      "RMSE": 193.31516859884235,
+      "WAPE": 0.14685928854284352
+    },
+    "random_forest": {
+      "MAE": 142.00296064415977,
+      "RMSE": 245.47023958009672,
+      "WAPE": 0.18252813548284896
+    }
+  }
+}
